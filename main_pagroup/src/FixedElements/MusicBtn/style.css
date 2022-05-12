@@ -1,0 +1,6 @@
+.mainpage__musicBtn {
+    position: fixed;
+    bottom: 5.56vh;
+    right: 1vw;
+    z-index: 4;
+}

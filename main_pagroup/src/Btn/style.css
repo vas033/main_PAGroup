@@ -1,0 +1,39 @@
+.mainpage__btn {
+    display: inline-block;
+    position: relative;
+    padding: 16px 40px;
+    transition: color .3s;
+    font-size: 18px;
+    line-height: 178%;
+    letter-spacing: 0.01em;
+    z-index: 1;
+    --back-color: #F5F4F6;
+    --hover-color: var(--main-color);
+}
+
+.mainpage__btn:is(:hover, :focus) {
+    color: white;
+}
+
+.mainpage__btn:before,
+.mainpage__btn:after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    z-index: -1;
+}
+
+.mainpage__btn:before {
+    background: var(--back-color);
+}
+
+.mainpage__btn:after {
+    background: var(--hover-color);
+    transform-origin: bottom;
+    transform: scaleY(0);
+    transition: transform .3s;
+}
+
+.mainpage__btn:hover:after {
+    transform: scaleY(1);
+}

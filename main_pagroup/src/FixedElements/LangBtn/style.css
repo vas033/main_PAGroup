@@ -1,0 +1,13 @@
+.mainpage__langBtn {
+    position: fixed;
+    bottom: 5.55vh;
+    left: 1vw;
+}
+
+.mainpage__langBtn--btn {
+    color: var(--main-color);
+}
+
+.mainpage__langBtn--hidden {
+    display: none;
+}

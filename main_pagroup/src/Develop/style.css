@@ -1,0 +1,31 @@
+.develop {
+    position: relative;
+    background: #0A0A22;
+    color: var(--main-color);
+    --main-color: #fff;
+}
+
+.develop__btn {
+    display: block;
+    position: relative;
+}
+
+.develop__btn--name {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.develop__btn:hover .develop__btn--shadow,
+.develop__btn:active .develop__btn--shadow {
+    filter: url(#filter0_d_268_617);
+}
+
+.develop__btn:active path {
+    fill: #385CDE;
+}

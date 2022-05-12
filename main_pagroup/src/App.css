@@ -1,0 +1,6 @@
+.mainpage {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}

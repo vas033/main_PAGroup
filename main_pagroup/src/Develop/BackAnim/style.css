@@ -1,0 +1,216 @@
+.develop__anim {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.develop__anim svg {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.develop__anim svg:last-child {
+    z-index: 1;
+}
+
+.anim__left--first--circle,
+.anim__left--second--circle,
+.anim__left--second--horizontal path,
+.anim__left--bottom--anim,
+.anim__left--first--horizontal--line,
+.anim__left--start--line,
+.anim__left--top--line,
+.anim__right--second--circle,
+.anim__right--first--circle,
+.anim__right--horizontal path,
+.anim__right--bottom--line,
+.anim__right--second--horizontal--line,
+.anim__right--top--line,
+.anim__right--first--horizontal--line {
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.anim__right--horizontal path,
+.anim__right--second--circle,
+.anim__right--first--circle,
+.anim__right--bottom--line,
+.anim__right--second--horizontal--line,
+.anim__right--top--line,
+.anim__right--first--horizontal--line {
+    animation-delay: 0.2s;
+}
+
+.anim__right--first--horizontal--line {
+    animation-name: rightFirstHorizontal;
+}
+
+.anim__right--top--line {
+    animation-name: rightTop;
+}
+
+.anim__right--second--horizontal--line {
+    animation-name: rightSecondHorizontal;
+}
+
+.anim__right--bottom--line {
+    animation-name: rightBottom;
+}
+
+.anim__left--top--line {
+    animation-name: leftTop;
+}
+
+.anim__left--start--line {
+    animation-name: leftLine;
+}
+
+.anim__left--first--circle,
+.anim__right--first--circle {
+    animation-name: leftCircleAnim2;
+}
+
+.anim__left--second--circle,
+.anim__right--second--circle {
+    animation-name: leftCircleAnim1;
+}
+
+.anim__square {
+    animation: squareAnim 10s linear -0.6s infinite;
+}
+
+.anim__left--second--horizontal path,
+.anim__right--horizontal path {
+    animation-name: shortAnim;
+}
+
+.anim__left--bottom--anim {
+    animation-name: leftBottomAnim;
+}
+
+.anim__left--first--horizontal--line {
+    animation-name: leftHorizontal;
+}
+
+@keyframes leftCircleAnim1 {
+    12% {
+        opacity: 1;
+    }
+    8%,
+    14% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes leftCircleAnim2 {
+    16% {
+        opacity: 1;
+    }
+    13%,
+    18% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes squareAnim {
+    0% {
+        stroke-dashoffset: 0%;
+    }
+    100% {
+        stroke-dashoffset: 395%;
+    }
+}
+
+@keyframes shortAnim {
+    12% {
+        opacity: 1;
+        stroke-width: 4;
+    }
+    8%,
+    14% {
+        stroke-width: 1;
+        opacity: 0.3;
+    }
+}
+
+@keyframes leftBottomAnim {
+    12% {
+        stroke-dashoffset: 169%;
+    }
+    45%,
+    100% {
+        stroke-dashoffset: 223%;
+    }
+}
+
+@keyframes leftHorizontal {
+    12% {
+        stroke-dashoffset: 3%;
+    }
+    15%,
+    100% {
+        stroke-dashoffset: 14%;
+    }
+}
+
+@keyframes leftLine {
+    16% {
+        stroke-dashoffset: 0%;
+    }
+    50%,
+    100% {
+        stroke-dashoffset: 52%;
+    }
+}
+
+@keyframes leftTop {
+    11% {
+        stroke-dashoffset: 39%;
+    }
+    40%,
+    100% {
+        stroke-dashoffset: 79%;
+    }
+}
+
+@keyframes rightBottom {
+    11% {
+        stroke-dashoffset: 74%;
+    }
+    40%,
+    100% {
+        stroke-dashoffset: 2%;
+    }
+}
+
+@keyframes rightSecondHorizontal {
+    11% {
+        stroke-dashoffset: 3%;
+    }
+    15%,
+    100% {
+        stroke-dashoffset: 14%;
+    }
+}
+
+@keyframes rightTop {
+    16% {
+        stroke-dashoffset: 44%;
+    }
+    55%,
+    100% {
+        stroke-dashoffset: 2%;
+    }
+}
+
+@keyframes rightFirstHorizontal {
+    16% {
+        stroke-dashoffset: 0%;
+    }
+    45%,
+    100% {
+        stroke-dashoffset: 20%;
+    }
+}

@@ -1,0 +1,18 @@
+.marketing {
+    background-image: url(../img/back_marketing.png);
+}
+
+.marketing .mainpage__btn {
+    color: #fff;
+    --back-color: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+    --hover-color: #fff;
+    border: 1px solid var(--back-color);
+}
+
+.marketing .mainpage__btn:is(:hover, :focus) {
+    color: var(--main-color);
+}
+
+.marketing .mainpage__btn::after {
+    inset: 1px;
+}

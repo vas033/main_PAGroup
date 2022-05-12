@@ -1,0 +1,53 @@
+.burger__desc--container {
+    flex: 0 0 43.14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FF0000;
+}
+
+.burger__desc--text {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.burger__btns--mail--desc {
+    margin-bottom: 16px;
+    color: #68657C;
+}
+
+.burger__btns--mail--link {
+    display: block;
+    width: fit-content;
+    position: relative;
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+
+.burger__btns--mail--link span:after,
+.burger__btns--mail--link span:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: transform .3s ease;
+}
+
+.burger__btns--mail--link span:after {
+    border-bottom: 2px solid var(--grey-garden);
+}
+
+.burger__btns--mail--link span:before {
+    transform: translateX(-100%);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.burger__btns--mail--link:hover span:after {
+    transform: translateX(100%);
+}
+
+.burger__btns--mail--link:hover span:before {
+    transform: translateX(0);
+}
