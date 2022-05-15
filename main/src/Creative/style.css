@@ -1,0 +1,61 @@
+.creative {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/background.png);
+}
+
+.creative__video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8vh;
+    left: 23vw;
+    z-index: -1;
+}
+
+.creative .mainpage__btn {
+    color: #3E24EA;
+    background-color: transparent;
+    border-radius: 150px;
+    border: 1px solid #3E24EA;
+    font-family: 'Visby Medium Italic';
+    overflow: hidden;
+    --back-color: rgba(0, 0, 0, 0);
+    --hover-color: #3E24EA;
+}
+
+.creative .mainpage__btn:is(:hover, :focus) {
+    color: #fff;
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.mask {
+    position: absolute;
+    z-index: 2;
+    background: white;
+    height: 100vh;
+    width: 100vw;
+    mix-blend-mode: screen;
+    /* display: none; */
+}
+
+.creative .plug__content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creative .plug__desc,
+.creative .plug__title {
+    margin: unset;
+    margin-bottom: 56px;
+}
