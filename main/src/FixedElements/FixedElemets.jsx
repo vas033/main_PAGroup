@@ -10,8 +10,10 @@ export default function FixedElements({ scroll, breakpoints }) {
 
         return (
                 <div className='mainpage__fixedEl'>
+                        <div style={{ position: 'absolute', zIndex: '3' }}>
                         <Logo />
                         <LangBtn />
+                        </div>
                         <div id="burgerSide" style={{ position: 'absolute' }}>
                                 <MusicBtn />
                                 <BurgerMenu />

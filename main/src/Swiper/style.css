@@ -1,0 +1,7 @@
+.active svg circle {
+    stroke: red;
+}
+
+.active .customCircle {
+    fill: red;
+}

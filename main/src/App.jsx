@@ -7,6 +7,7 @@ import Creative from './Creative/Creative';
 import Develop from './Develop/Develop';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import FirstAnim from './FirstAnim/FirstAnim';
 
 
 export default function App() {
@@ -15,9 +16,11 @@ export default function App() {
   const [breakpoints, setBreakpoints] = useState([]);
 
   const handleScroll = (e) => {
+
     const container = e.target;
     const scroll = container.scrollLeft;
     setPos(scroll);
+    console.log('scroll',e.target)
   };
 
   useEffect(() => {
@@ -42,25 +45,26 @@ export default function App() {
       container.style.setProperty('--main-color', '#131027');
     }
 
+    console.log(pos)
   }, [pos]);
+
 
 
   return (
     <BrowserRouter>
-        <main id='mainpage'  onScroll={(e) => handleScroll(e)}>
+      <main id='mainpage'>
+        <FirstAnim />
         <FixedElements scroll={pos} breakpoints={breakpoints} />
-      <Routes>
-        <Route path="/" element={
-          <div className='mainpage'>
-            <Develop />
-            <Creative />
-            <Marketing />
-          </div>
+        <Routes>
+          <Route path="/" element={
+            <div id='mainpageDiv'  onScroll={(e) => handleScroll(e)} className='mainpage'>
+              <Develop />
+              <Creative />
+              <Marketing />
+            </div>
           } />
-        <Route path="*" element={
-          <Plug />
-        } />
-      </Routes>
+          <Route path="*" element={<Plug />} />
+        </Routes>
         </main>
     </BrowserRouter>
   );

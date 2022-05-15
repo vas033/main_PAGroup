@@ -1,0 +1,41 @@
+.firstAnim {
+    position: absolute;
+    inset: 0;
+    background-color: #0A0A22;
+    transition: top .3s linear;
+    z-index: 10;
+}
+
+.firstAnim__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 120px;
+}
+
+.firstAnim__title div {
+    width: fit-content;
+}
+
+.firstAnim__div {
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    will-change: transform;
+    transition: transform .3s linear;
+}
+
+.firstAnim__second {
+    transition-delay: .3s;
+}
+
+@keyframes textAnim {
+    100% {
+        transform: scaleY(1);
+    }
+}
