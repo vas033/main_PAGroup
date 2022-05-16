@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3d7dae9.css",
+    "main.js": "/static/js/main.de9f210b.js",
+    "static/js/787.deeec6c3.chunk.js": "/static/js/787.deeec6c3.chunk.js",
+    "static/media/back_marketing.png": "/static/media/back_marketing.d9e128651c0e08d7b946.png",
+    "static/media/back_gradient.png": "/static/media/back_gradient.967e4470c84eb14e8a46.png",
+    "static/media/background.png": "/static/media/background.2ed00f7fdd247fdfc6b5.png",
+    "static/media/background-logo-block.e1e434b.webm": "/static/media/background-logo-block.e1e434b.7d6bb9e9491ae9b8b5a4.webm",
+    "static/media/back__title.jpeg": "/static/media/back__title.78674e47953efde456d6.jpeg",
+    "static/media/VisbyThin Italic.woff": "/static/media/VisbyThin Italic.479ada3c3fad5a08cd56.woff",
+    "static/media/VisbyHeavy Italic.woff": "/static/media/VisbyHeavy Italic.aaf16c51f970a49668ed.woff",
+    "static/media/VisbyBold Italic.woff": "/static/media/VisbyBold Italic.3fc57d373527fe0fc0ae.woff",
+    "static/media/VisbyLight Italic.woff": "/static/media/VisbyLight Italic.e5eac65b465215358683.woff",
+    "static/media/VisbyExtrabold Italic.woff": "/static/media/VisbyExtrabold Italic.79cbff683ec6a2f9aeff.woff",
+    "static/media/VisbyMedium Italic.woff": "/static/media/VisbyMedium Italic.ddfe672f931b2afa8ff2.woff",
+    "static/media/VisbyItalic.woff": "/static/media/VisbyItalic.62cc9a101d80859b51c4.woff",
+    "static/media/VisbySemibold Italic.woff": "/static/media/VisbySemibold Italic.64e1c7d406375c9e3f48.woff",
+    "static/media/VisbyThin.woff": "/static/media/VisbyThin.317d6cd06a2556d327c8.woff",
+    "static/media/VisbyLight.woff": "/static/media/VisbyLight.984de9c300ccd536751b.woff",
+    "static/media/VisbyHeavy.woff": "/static/media/VisbyHeavy.e32227cbd86c7d7645f0.woff",
+    "static/media/VisbyExtrabold.woff": "/static/media/VisbyExtrabold.d0e95c67c104da4dfaaa.woff",
+    "static/media/VisbyMedium.woff": "/static/media/VisbyMedium.8bd5dbc04836ff250376.woff",
+    "static/media/VisbyBold.woff": "/static/media/VisbyBold.43b9a429e3c9acb540d9.woff",
+    "static/media/VisbyRegular.woff": "/static/media/VisbyRegular.15c70e7ece2c4d077d66.woff",
+    "static/media/VisbySemibold.woff": "/static/media/VisbySemibold.b5ce586137b0dedf0e2a.woff",
+    "index.html": "/index.html",
+    "main.a3d7dae9.css.map": "/static/css/main.a3d7dae9.css.map",
+    "main.de9f210b.js.map": "/static/js/main.de9f210b.js.map",
+    "787.deeec6c3.chunk.js.map": "/static/js/787.deeec6c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3d7dae9.css",
+    "static/js/main.de9f210b.js"
+  ]
+}
