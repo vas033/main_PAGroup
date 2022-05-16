@@ -6,10 +6,10 @@ import MusicBtn from './MusicBtn/MusicBtn';
 import BurgerMenu from './BurgerMenu/BurgerMenu';
 import ProgressBar from './ProgressBar/ProgressBar';
 
-export default function FixedElements({ scroll, breakpoints }) {
+export default function FixedElements() {
 
         return (
-                <div className='mainpage__fixedEl'>
+                <div id='fixedEl' className='mainpage__fixedEl'>
                         <div style={{ position: 'absolute', zIndex: '3' }}>
                         <Logo />
                         <LangBtn />
@@ -18,7 +18,6 @@ export default function FixedElements({ scroll, breakpoints }) {
                                 <MusicBtn />
                                 <BurgerMenu />
                         </div>
-                        <ProgressBar scroll={scroll} breakpoints={breakpoints} />
                 </div>
         )
 }

@@ -8,7 +8,7 @@ import Swiper from './Swiper/Swiper';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Swiper />
+    <App />
   </React.StrictMode>
 );
 

@@ -1,7 +1,63 @@
+.swiper {
+    --progressbar-main-color: #C6D1F7;
+}
+
+.swiper-pagination-bullets {
+    bottom: 5.55vh!important;
+}
+
 .active svg circle {
-    stroke: red;
+    stroke: var(--progressbar-active-color);
 }
 
 .active .customCircle {
-    fill: red;
+    fill: var(--progressbar-active-color);
+}
+
+.active .bullet--name:after {
+    color: var(--progressbar-active-color);
+}
+
+.swiper-pagination-bullet {
+    margin: unset!important;
+    width: fit-content;
+    background: none;
+    text-align: start;
+    opacity: 1;
+}
+
+.bullet--name {
+    position: relative;
+    color: transparent;
+}
+
+.bullet__develop:after,
+.bullet__creative:after,
+.bullet__marketing:after {
+    position: absolute;
+    left: -19%;
+    color: var(--progressbar-main-color);
+}
+
+.bullet__develop:after {
+    content: 'Разработка';
+}
+
+.bullet__creative:after {
+    content: 'Креативная';
+}
+
+.bullet__marketing:after {
+    content: 'Маркетинг';
+}
+
+#developLine,
+#creativeLine {
+    width: 0;
+}
+
+@keyframes lineAnim {
+    100% {
+        width: 100%
+    }
 }
