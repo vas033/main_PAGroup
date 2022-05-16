@@ -192,13 +192,13 @@ button.mainpage__burgerMenu--btn.mainpage__burgerMenu--open+.mainpage__burgerMen
     position: relative;
     margin-bottom: 8px;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 3.704vh;
     line-height: 120%;
 }
 
 .mainpage__burgerMenu--linkDesc {
     color: var(--grey-garden);
-    font-size: 18px;
+    font-size: 1.667vh;
     line-height: 150%;
 }
 
@@ -207,7 +207,7 @@ button.mainpage__burgerMenu--btn.mainpage__burgerMenu--open+.mainpage__burgerMen
 }
 
 .mainpage__burgerMenu--navlink:not(:last-child) {
-    margin-bottom: 48px;
+    margin-bottom: 4.444vh;
 }
 
 .mainpage__burgerMenu--linkName:before {
@@ -241,4 +241,9 @@ button.mainpage__burgerMenu--btn.mainpage__burgerMenu--open+.mainpage__burgerMen
     display: block;
     padding: 16px 40px;
     background-color: #F5F4F6;
+}
+
+.burger__btns--mail {
+    font-size: 1.852vh;
+    line-height: 120%;
 }

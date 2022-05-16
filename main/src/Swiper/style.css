@@ -23,6 +23,8 @@
     width: fit-content;
     background: none;
     text-align: start;
+    font-size: 1.481vh;
+    line-height: 130%;
     opacity: 1;
 }
 

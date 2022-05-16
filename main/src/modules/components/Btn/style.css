@@ -1,9 +1,9 @@
 .mainpage__btn {
     display: inline-block;
     position: relative;
-    padding: 16px 40px;
+    padding: 1.667vh 2.083vw;
     transition: color .3s;
-    font-size: 18px;
+    font-size: 1.667vh;
     line-height: 178%;
     letter-spacing: 0.01em;
     z-index: 1;

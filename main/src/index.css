@@ -56,12 +56,12 @@ section {
 .title {
     width: 38.312vw;
     font-family: 'Visby SemiBold';
-    font-size: 100px;
+    font-size: 9.259vh;
     line-height: 120%;
 }
 
 .desc {
     width: 35vw;
-    font-size: 24px;
+    font-size: 2.222vh;
     line-height: 160%;
 }
