@@ -28,34 +28,37 @@
     color: #fff;
 }
 
-canvas {
+
+/* canvas {
     position: absolute;
     width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
-}
+} */
 
-.mask {
+
+/* .mask {
     position: absolute;
     z-index: 2;
-    background: white;
     height: 100vh;
     width: 100vw;
     mix-blend-mode: screen;
+    background-color: white;
     /* display: none; */
-}
+
+
+/* opacity: 0; */
+
+
+/* } */
 
 .creative .plug__content {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image: url(../img/background.png);
 }
 
 .creative .plug__desc,
 .creative .plug__title {
-    margin: unset;
     margin-bottom: 56px;
+    position: relative;
 }

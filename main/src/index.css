@@ -11,6 +11,7 @@ body {
 a {
     text-decoration: none;
     color: var(--main-color);
+    cursor: pointer;
 }
 
 p,
@@ -50,11 +51,13 @@ section {
 .desc {
     margin: auto;
     margin-bottom: 56px;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .title {
     width: 38.312vw;
+    display: flex;
     font-family: 'Visby SemiBold';
     font-size: 9.259vh;
     line-height: 120%;
@@ -64,4 +67,10 @@ section {
     width: 35vw;
     font-size: 2.222vh;
     line-height: 160%;
+}
+
+@media(max-width: 1440px) {
+    .title {
+        width: 49vw;
+    }
 }

@@ -18,6 +18,10 @@
     color: var(--progressbar-active-color);
 }
 
+.swiper-pagination-bullets {
+    left: 2%;
+}
+
 .swiper-pagination-bullet {
     margin: unset!important;
     width: fit-content;
@@ -30,6 +34,7 @@
 
 .bullet--name {
     position: relative;
+    margin-bottom: 6px;
     color: transparent;
 }
 
@@ -51,11 +56,17 @@
 
 .bullet__marketing:after {
     content: 'Маркетинг';
+    left: -34%;
 }
 
 #developLine,
 #creativeLine {
     width: 0;
+}
+
+.progressAnim {
+    animation-name: lineAnim;
+    animation-timing-function: linear;
 }
 
 @keyframes lineAnim {

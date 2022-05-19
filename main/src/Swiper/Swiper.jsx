@@ -11,15 +11,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './style.css';
 import Marketing from '../Marketing/Marketing';
-import Plug from '../Plug/Plug';
 import Develop from '../Develop/Develop';
 import Creative from '../Creative/Creative';
-
-// function BtnSwiper (className, index) {
-//         return (
-
-//         )
-// }
 
 export default () => {
         const arr = [{
@@ -46,9 +39,12 @@ export default () => {
 
         const lineAnim = (id) => {
                 const line = document.getElementById(id);
-                line.style.setProperty('animation', `lineAnim ${speed}ms linear`);
+                line.style.setProperty('animation-duration', `${speed}ms`);
+                document.querySelectorAll('.progressAnim').forEach(el => el.classList.remove('progressAnim'));
+                line.classList.toggle('progressAnim');
                 setTimeout(() => {
-                        line.style.removeProperty('animation');
+                        line.style.removeProperty('animation-duration');
+                        line.classList.toggle('progressAnim');
                 }, speed)
         }
 
